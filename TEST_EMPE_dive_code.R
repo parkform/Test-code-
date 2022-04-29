@@ -9,6 +9,7 @@ setwd("/Volumes/GoogleDrive-108505658869240529132/My Drive/Unfiltered_2019_EMPE/
 # download data
 divetest<- fread("EMPE_2019_CACR_Pen3_Axy6_raw.csv",na.strings = c("", NA)); head(divetest)
 
+# HI CAITIE AND PARKER!!!
 
 ### filter data
 divet<- divet %>% 
@@ -24,6 +25,8 @@ tdrX <- createTDR(time=divet$Timestamp,
                   depth=divet$Depth,
                   concurrentData=divet[, -c(1:2)],
                   dtime=1, file="EMPE_2019_CACR_Pen3_Axy6_raw.csv")
+
+## Meep meep penguins!
 
 ### plot dives 
 plotTDR(tdrX)
