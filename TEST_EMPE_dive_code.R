@@ -27,3 +27,6 @@ tdrX <- createTDR(time=divet$Timestamp,
 
 ### plot dives 
 plotTDR(tdrX)
+
+
+########################################################################dafsdfasdfasdfasdfasdfasdfasdfasdf
